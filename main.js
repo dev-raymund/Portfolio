@@ -24,6 +24,7 @@ function setActiveNav() {
 
     for (var i = 0; i < sections.length; i++) {
         var section = sections[i];
+            section.classList.remove('active');
 
         if (section.getBoundingClientRect().top < 150) {
             var sectionId = section.id;
@@ -38,6 +39,7 @@ function setActiveNav() {
 
                 // Add "active" class to the corresponding navigation link
                 navLink.classList.add('active');
+                section.classList.add('active');
             }
         }
     }
