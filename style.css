@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6, a, p {
     margin-bottom: 20px;
 }
 
+a.link:hover h1,
+.project-img:hover {
+    transform: scale(1.05);
+}
+
 .btn {
     border: 1px solid;
     border-color: #fff;
@@ -245,6 +250,18 @@ nav ul li a.active .dot,
 
 .card a.link:hover .icon {
     transform: translate(0.3rem, -0.3rem);
+}
+
+.project-img {
+    width: 100%;
+    border: 2px solid;
+    border-color: #93a2b8;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.project-img:hover {
+    border-color: #5be3d4;
 }
 
 main section {
