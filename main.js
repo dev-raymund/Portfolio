@@ -44,3 +44,14 @@ function setActiveNav() {
         }
     }
 }
+
+var i = 0;
+var txt = 'Raymund Hermoso'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+
+if (i < txt.length) {
+    document.getElementById("heading").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+}
