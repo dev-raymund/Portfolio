@@ -233,9 +233,10 @@ nav ul li a.active .dot,
     display: flex;
 }
 
-.technology-item.link {
+.technology-item {
+    color: #323232;
+    background-color: #5be3d4;
     padding: 5px 15px;
-    background-color: rgba(91, 227, 212, 0.2);
     border-radius: 25px;
 }
 
