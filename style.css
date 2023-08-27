@@ -187,10 +187,6 @@ nav ul li a.link .line {
     margin: 0 5px;
 }
 
-.link:hover .icon {
-    transform: translate(0.3rem);
-}
-
 .line {
     border-top: 1px solid #93a2b8;
     height: 0;
@@ -221,7 +217,8 @@ nav ul li a:hover .circle,
 nav ul li a.active .circle,
 nav ul li a:hover .dot,
 nav ul li a.active .dot,
-.social-item a.link:hover svg {
+.social-item a.link:hover svg,
+.link:hover .icon {
     transform: scale(1.2);
 }
 
