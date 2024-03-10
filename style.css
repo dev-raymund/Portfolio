@@ -5,6 +5,7 @@
     --primary-bg-color: #323232;
     --secondary-bg-color: #2c4d49;
     --gray-bg-color: #3c3c3c;
+    --gray-bg-shadow-color: rgba(225, 225, 225, 0.5);
 }
 
 * {
@@ -299,6 +300,9 @@ main section.active {
 /* Profile */
 .bg-gray {
     background-color: var(--gray-bg-color);
+}
+.bg-gray-shadow {
+    box-shadow: 0 0 20px 0 var(--gray-bg-shadow-color);
 }
 
 #profile {
