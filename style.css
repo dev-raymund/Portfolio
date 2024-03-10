@@ -68,6 +68,11 @@ p,
     color: var(--secondary-color);
 }
 
+/* Fonts */
+.f-normal {
+    font-weight: normal;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 600;
@@ -236,6 +241,10 @@ nav ul li a.active .dot,
     display: flex;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .technology-item {
     color: var(--primary-color);
     background-color: var(--secondary-bg-color);
@@ -318,6 +327,14 @@ main section.active {
 }
 
 /* Global Padding, Margin */
+
+.m-0 {
+    margin: 0;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
 
 .mb-0 {
     margin-bottom: 0px;
