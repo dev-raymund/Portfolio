@@ -28,8 +28,13 @@ h1, h2, h3, h4, h5, h6, a, p {
     margin-bottom: 20px;
 }
 
+.bg-white {
+    background-color: var(--common-color);
+}
+
 a.link:hover h1,
-.project-img:hover {
+.project-img:hover,
+.zoom-hover:hover {
     transform: scale(1.05);
 }
 
@@ -242,6 +247,14 @@ nav ul li a.active .dot,
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
 .align-center {
     align-items: center;
 }
@@ -360,7 +373,11 @@ main section.active {
     margin: 20px 0;
 }
 
-.pd-20 {
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
     padding: 20px;
 }
 
