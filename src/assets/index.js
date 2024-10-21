@@ -1,0 +1,51 @@
+import htmlIcon from '../assets/svg/html-5.svg'
+import cssIcon from '../assets/svg/css-3.svg'
+import jsIcon from '../assets/svg/javascript.svg'
+import bootstrapIcon from '../assets/svg/bootstrap.svg'
+import tailwindIcon from '../assets/svg/tailwind.svg'
+import phpIcon from '../assets/svg/php.svg'
+import laravelIcon from '../assets/svg/laravel.svg'
+import mysqlIcon from '../assets/svg/mysql.svg'
+import mongodbIcon from '../assets/svg/mongodb.svg'
+import jqueryIcon from '../assets/svg/jquery.svg'
+import vueIcon from '../assets/svg/vue.svg'
+import reactIcon from '../assets/svg/react.svg'
+import nodeIcon from '../assets/svg/node.svg'
+import wordpressIcon from '../assets/svg/wordpress.svg'
+import shopifyIcon from '../assets/svg/shopify.svg'
+import githubIcon from '../assets/svg/github.svg'
+import dockerIcon from '../assets/svg/docker.svg'
+import adobeIcon from '../assets/svg/adobe.svg'
+
+export {
+    htmlIcon,
+    cssIcon,
+    jsIcon,
+    bootstrapIcon,
+    tailwindIcon,
+    phpIcon,
+    laravelIcon,
+    mysqlIcon,
+    mongodbIcon,
+    jqueryIcon,
+    vueIcon,
+    reactIcon,
+    nodeIcon,
+    wordpressIcon,
+    shopifyIcon,
+    githubIcon,
+    dockerIcon,
+    adobeIcon
+}
+
+import tgsHub from "../assets/projects/tgs-hub.png"
+import coffsCityLockmart from "../assets/projects/coffscitylockmart.png"
+import karrathaLocksmith from "../assets/projects/karrathalocksmith.png"
+import municipalityOfToboso from "../assets/projects/municipality-of-toboso.png"
+
+export {
+    tgsHub,
+    coffsCityLockmart,
+    karrathaLocksmith,
+    municipalityOfToboso
+}
