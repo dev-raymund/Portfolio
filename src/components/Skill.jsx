@@ -1,6 +1,6 @@
 const Skill = ({ data }) => {
     return (
-        <ul className="flex flex-wrap gap-3">
+        <ul className="flex flex-wrap gap-3 justify-center xl:justify-start">
             {data.map((item, index) =>
                 <li key={index}>
                     <a href="#">

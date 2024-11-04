@@ -6,7 +6,7 @@ const Social = () => {
 
     return (
         <nav className="pt-12 pb-12">
-            <ul className="flex gap-10">
+            <ul className="flex gap-10 justify-center lg:justify-start">
                 {social.map((item, index) => 
                     <li key={index}>
                         <a href={item.link} target={item.target}>

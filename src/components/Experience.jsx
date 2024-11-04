@@ -9,9 +9,9 @@ const Experience = ({ data }) => {
             {data.map((item, index) =>
                 <div 
                     key={index} 
-                    className="flex mb-10 rounded-lg p-8 hover:shadow-custom-1 hover:shadow-zinc-400 transition duration-150 ease-in-out hover:scale-105"
+                    className="flex mb-10 rounded-lg p-8 hover:shadow-custom-1 hover:shadow-zinc-400 transition duration-150 ease-in-out hover:scale-105 flex-col xl:flex-row"
                 >
-                    <div className="w-1/4 mr-5">
+                    <div className="w-1/4 mr-5 mb-5">
                         <h4 className="text-lg dark:text-white">
                             {item.date}
                         </h4>

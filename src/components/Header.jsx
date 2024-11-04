@@ -9,16 +9,17 @@ import pdf from "../assets/files/RaymundHermoso.pdf"
 const Header = () => {
 
     return (
-        <div className="w-6/12 sticky top-0 pt-60 max-h-screen">
-
+        <>
             <h3 className="font-sans text-sky-500 text-xl font-bold mb-3">Hi, I am</h3>
 
             <h1 className="font-sans text-sky-500 text-6xl font-bold">Raymund Hermoso</h1>
 
             <h2 className="font-sans font-bold text-zinc-900 text-4xl mt-3 dark:text-white">Web Developer</h2>
 
-            <Navigation />
-
+            <div className="pt-12 pb-12">
+                <Navigation className="flex flex-col gap-2.5" />
+            </div>
+            
             <a 
                 href={pdf} 
                 target="_blank"
@@ -28,7 +29,7 @@ const Header = () => {
             </a>
 
             <Social />
-        </div>
+        </>
     )
 }
 
