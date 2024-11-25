@@ -5,6 +5,9 @@ import ToggleDarkMode from "./components/ToggleDarkMode"
 
 import Navigation from "./components/Navigation"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+
 function App() {
 
   return (
@@ -16,19 +19,24 @@ function App() {
         </div>
 
         <div className="block xl:hidden sticky top-0 bg-white shadow-md z-10">
-          <div className="container px-10 mx-auto">
+          <div className="container px-3 md:px-10 mx-auto">
             <div className="flex pt-3 pb-3 items-center">
               <div className="w-1/2">
-                <h2 className="font-sans text-sky-500 text-6xl font-bold">RH</h2>
+                <h2 className="font-sans text-sky-500 text-4xl font-bold">RH</h2>
               </div>
               <div className="w-1/2">
-                <Navigation className="flex justify-end gap-5" />
+                <Navigation className="hidden justify-end gap-5 md:flex" />
+                <div className="flex md:hidden justify-end">
+                  <button>
+                    <FontAwesomeIcon icon={faBars} className="" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="container px-10 mx-auto">
+        <div className="container px-3 md:px-10 mx-auto">
           <div className="flex">
 
             <div className="hidden xl:block w-6/12 sticky top-0 pt-60 max-h-screen">
