@@ -3,7 +3,7 @@ import Social from "./Social"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDownload } from "@fortawesome/free-solid-svg-icons"
 
-import pdf from "../assets/files/RaymundHermoso.pdf"
+import pdf from "../assets/files/RAYMUND HERMOSO - CV.pdf"
 
 import profile from '../assets/profile.png'
 
