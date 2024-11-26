@@ -5,8 +5,8 @@ import ToggleDarkMode from "./components/ToggleDarkMode"
 
 import Navigation from "./components/Navigation"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import MobileDrawer from "./components/MobileDrawer"
+import BurgerNavigation from "./components/BurgerNavigation"
 
 function App() {
 
@@ -18,6 +18,8 @@ function App() {
           <ToggleDarkMode />
         </div>
 
+        <MobileDrawer />
+
         <div className="block xl:hidden sticky top-0 bg-white shadow-md z-10">
           <div className="container px-3 md:px-10 mx-auto">
             <div className="flex pt-3 pb-3 items-center">
@@ -26,11 +28,7 @@ function App() {
               </div>
               <div className="w-1/2">
                 <Navigation className="hidden justify-end gap-5 md:flex" />
-                <div className="flex md:hidden justify-end">
-                  <button>
-                    <FontAwesomeIcon icon={faBars} className="" />
-                  </button>
-                </div>
+                <BurgerNavigation />
               </div>
             </div>
           </div>
