@@ -50,5 +50,8 @@ export {
     tgsHub,
     coffsCityLockmart,
     karrathaLocksmith,
-    municipalityOfToboso
+    municipalityOfToboso,
+    bus4x4,
+    perfectFloors,
+    fastTrackHomeLoans
 }
