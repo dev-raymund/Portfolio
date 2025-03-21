@@ -157,7 +157,10 @@ export const experiences = [
 import {
     tgsHub,
     coffsCityLockmart,
-    karrathaLocksmith
+    karrathaLocksmith,
+    bus4x4,
+    perfectFloors,
+    fastTrackHomeLoans
 } from '../assets'
 
 export const projects = [
@@ -220,32 +223,22 @@ export const projects = [
 export const navigation = [
     {
         id: 0,
-        title: "Home",
-        url: "#home"
-    },
-    {
-        id: 0,
-        title: "Services",
-        url: "#services"
-    },
-    {
-        id: 0,
         title: "About",
         url: "#about"
     },
     {
         id: 1,
-        title: "Projects",
-        url: "#projects"
+        title: "Skills",
+        url: "#skills"
     },
     {
         id: 2,
-        title: "Blogs",
-        url: "#blogs"
+        title: "Experience",
+        url: "#experience"
     },
     {
         id: 3,
-        title: "Testimonials",
-        url: "#testimonials"
-    }
+        title: "Projects",
+        url: "#projects"
+    },
 ]
