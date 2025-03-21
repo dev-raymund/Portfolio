@@ -157,8 +157,7 @@ export const experiences = [
 import {
     tgsHub,
     coffsCityLockmart,
-    karrathaLocksmith,
-    municipalityOfToboso
+    karrathaLocksmith
 } from '../assets'
 
 export const projects = [
@@ -167,28 +166,41 @@ export const projects = [
         project_list: [
             {
                 title: "Talk Global Study",
-                link: "#",
+                link: "https://talkglobalstudy.com",
                 featured_image: tgsHub,
                 description: "Fully custom Wordpress website from scratch and run from a REST API of its functionality. Speak privately online or in person with universities, colleges and government organisations from around the world who will answer all your questions."
             },
             {
                 title: "Coffs City Lockmart",
-                link: "#",
+                link: "https://www.coffscitylockmart.com.au/",
                 featured_image: coffsCityLockmart,
                 description: "Trusted Locksmith Services for 40+ Years Securing Homes, Schools, and Councils in NSW Mid North Coast with quality locks, safes, and security systems"
             },
             {
                 title: "Karratha Lock Service",
-                link: "#",
+                link: "https://karrathalockservice.com/",
                 featured_image: karrathaLocksmith,
                 description: "Trusted Karratha Locksmith for Homes, Businesses, and Vehicles with 20 years of experience serving the Pilbara Region with security solutions, superior workmanship and swift service"
             },
             {
-                title: "Municipality of Toboso",
-                link: "#",
-                featured_image: municipalityOfToboso,
-                description: "A website built in Wordpress with Astra Theme and Elementor. Toboso is a coastal municipality in the province of Negros Occidental. The municipality has a land area of 117.33 square kilometers or 45.30 square miles which constitutes 1.50% of Negros Occidental's total area. Its population as determined by the 2015 Census was 42,114."
-            }
+                title: "Bus 4x4",
+                link: "https://www.bus4x4.com.au/",
+                featured_image: bus4x4,
+                description: "Bus 4×4 are experts in converting 2WD Toyota HiAce and Toyota Coasters into go-anywhere 4WDs, with professionally engineered AWD Conversion Kits under Second Stage Manufacturing."
+            },
+            {
+                title: "Perfect Floors",
+                link: "https://perfectfloors.com.au/",
+                featured_image: perfectFloors,
+                description: "Trusted Karratha Locksmith for Homes, Businesses, and Vehicles with 20 years of experience serving the Pilbara Region with security solutions, superior workmanship and swift service"
+            },
+            {
+                title: "Fast Track Home Loans",
+                link: "https://fthl.netstripes.au/",
+                featured_image: fastTrackHomeLoans,
+                description: "Helps Professionals, Families and Businesses build wealth through property. Our experts will structure your finances in maximising your borrowing and investments."
+            },
+
         ]
     },
     {
@@ -208,22 +220,32 @@ export const projects = [
 export const navigation = [
     {
         id: 0,
+        title: "Home",
+        url: "#home"
+    },
+    {
+        id: 0,
+        title: "Services",
+        url: "#services"
+    },
+    {
+        id: 0,
         title: "About",
         url: "#about"
     },
     {
         id: 1,
-        title: "Skills",
-        url: "#skills"
+        title: "Projects",
+        url: "#projects"
     },
     {
         id: 2,
-        title: "Experience",
-        url: "#experience"
+        title: "Blogs",
+        url: "#blogs"
     },
     {
         id: 3,
-        title: "Projects",
-        url: "#projects"
+        title: "Testimonials",
+        url: "#testimonials"
     }
 ]

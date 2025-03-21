@@ -42,6 +42,9 @@ import tgsHub from "../assets/projects/tgs-hub.png"
 import coffsCityLockmart from "../assets/projects/coffscitylockmart.png"
 import karrathaLocksmith from "../assets/projects/karrathalocksmith.png"
 import municipalityOfToboso from "../assets/projects/municipality-of-toboso.png"
+import bus4x4 from "../assets/projects/bus4x4.png"
+import perfectFloors from "../assets/projects/perfect_floors.png"
+import fastTrackHomeLoans from "../assets/projects/fast_track_home_loans.png"
 
 export {
     tgsHub,
