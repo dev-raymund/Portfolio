@@ -12,7 +12,7 @@ const BurgerNavigation = () => {
   };
 
   return (
-    <div className="flex md:hidden justify-end dark:text-white">
+    <div className="hidden md:hidden justify-end dark:text-white">
       <button onClick={() => toggleMobileDraweHandler()}>
         <FontAwesomeIcon icon={faBars} className="" />
       </button>
