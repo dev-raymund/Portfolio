@@ -121,7 +121,7 @@ export const skills = [
 
 export const experiences = [
     {
-        date: "MAY 2024 - Present",
+        date: "MAY 2024 - JAN 2025",
         company: "YEWS - Your Easy Web Solutions",
         link: "#",
         position: "Web Developer / Web Designer",
