@@ -35,6 +35,9 @@ const Hero = () => {
       </div>
 
       <div className="lg:w-1/2 xl:w-full">
+        <h3 className="font-sans text-sky-500 text-2xl font-bold mb-3 text-center lg:text-left">
+          About
+        </h3>
         <p className="text-zinc-900 mb-3 text-lg dark:text-white text-center lg:text-left">
           I’m a results-driven Web Developer with a strong foundation in both front-end and back-end development. With years of experience building responsive, scalable, and user-centric digital solutions, I bring a deep understanding of modern web technologies such as HTML, CSS, JavaScript, React, Vue.js, PHP, Laravel, WordPress, Shopify, and more.
         </p>

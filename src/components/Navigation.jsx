@@ -13,9 +13,9 @@ const Navigation = ({ className }) => {
             href={item.url}
             className={`${
               item.url === pathname.hash
-                ? "font-bold text-sky-500 dark:text-sky-500"
+                ? "font-bold text-sky-500"
                 : ""
-            } font-sans hover:text-sky-500 text-xl dark:text-white uppercase transition duration-150 ease-in-out`}
+            } font-sans text-xl dark:text-white uppercase transition duration-150 ease-in-out`}
           >
             {item.title}
           </a>
