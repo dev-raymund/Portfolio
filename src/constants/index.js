@@ -41,7 +41,10 @@ import {
     shopifyIcon,
     githubIcon,
     dockerIcon,
-    adobeIcon
+    adobeIcon,
+    redis,
+    postman,
+    nutracraft
 } from '../assets'
 
 export const skills = [
@@ -84,6 +87,14 @@ export const skills = [
     {
         title: "jquery",
         icon: jqueryIcon,
+    },
+    {
+        title: "redis",
+        icon: redis
+    },
+    {
+        title: "postman",
+        icon: postman
     },
     {
         title: "vue",
@@ -129,10 +140,10 @@ export const experiences = [
         technologies: ['wordpress', 'shopify', 'jquery', 'adobe']
     },
     {
-        date: "MAY 2023 - Present",
+        date: "MAY 2023 - MAY 2025",
         company: "PPD - ThermoFisher Scientific",
         link: "#",
-        position: "Technical Application Specialist I",
+        position: "Business Technology Developer",
         description: "PPD is now part of Thermo Fisher Scientific, the world leader in serving science. Together, Thermo Fisher and PPD are creating a unique opportunity to advance their shared pursuit to enable customers to make the world healthier by accelerating the development of new medicines.",
         technologies: ['react', 'jquery', 'php', 'laravel', 'docker']
     },
@@ -142,7 +153,7 @@ export const experiences = [
         link: "#",
         position: "Web Developer / Software Developer",
         description: "It is a duly licensed software development company based in Manila, Philippines. Its primary field of expertise is the optimization of business processes through pre-existing or fully customized software solutions. Services include Web/Mobile App Development, could-based custom ERP and CMS systems, and IT resource outsourcing.",
-        technologies: ['wordpress', 'react', 'vue', 'jquery', 'php', 'laravel']
+        technologies: ['wordpress', 'react', 'vue', 'jquery', 'php', 'laravel', 'redis', 'postman']
     },
     {
         date: "NOV 2018 - JUN 2019",
@@ -162,6 +173,7 @@ import {
     perfectFloors,
     fastTrackHomeLoans
 } from '../assets'
+import { icon } from '@fortawesome/fontawesome-svg-core'
 
 export const projects = [
     {
@@ -209,7 +221,12 @@ export const projects = [
     {
         category: "shopify",
         project_list: [
-
+            {
+                title: "Nutracraft",
+                link: "https://nutracraft.com",
+                featured_image: nutracraft,
+                description: "E-Commerce website with food supplement products. Customize liquid templates and support in email marketing."
+            },
         ]
     },
     {

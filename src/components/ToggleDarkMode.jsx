@@ -20,7 +20,7 @@ const ToggleDarkMode = () => {
                 className="text-amber-500 text-md group-hover:scale-110 absolute left-1" 
                 icon={faMoon} 
             />
-            <span className={`${dark ? "left-1" : "right-1"} absolute z-10 bg-white w-5 h-5 rounded-full`}></span>
+            <span className={`${dark ? "left-1" : "right-1"} absolute z-10 bg-sky-500 w-5 h-5 rounded-full`}></span>
             <FontAwesomeIcon 
                 className="text-amber-500 text-md group-hover:scale-110 absolute right-1" 
                 icon={faSun} 

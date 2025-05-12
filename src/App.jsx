@@ -35,8 +35,8 @@ function App() {
         </div>
 
         <div className="container px-3 md:px-10 mx-auto">
-          <div className="flex">
-            <div className="hidden xl:block w-2/5 sticky top-0 pt-60 max-h-screen">
+          <div className="flex gap-12">
+            <div className="hidden xl:flex xl:justify-center xl:flex-col w-2/5 sticky top-0 max-h-screen">
               <Header />
             </div>
 

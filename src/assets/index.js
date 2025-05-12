@@ -16,6 +16,8 @@ import shopifyIcon from '../assets/svg/shopify.svg'
 import githubIcon from '../assets/svg/github.svg'
 import dockerIcon from '../assets/svg/docker.svg'
 import adobeIcon from '../assets/svg/adobe.svg'
+import redis from '../assets/svg/redis.svg'
+import postman from '../assets/svg/postman.svg'
 
 export {
     htmlIcon,
@@ -35,9 +37,12 @@ export {
     shopifyIcon,
     githubIcon,
     dockerIcon,
-    adobeIcon
+    adobeIcon,
+    redis,
+    postman
 }
 
+import nutracraft from "../assets/projects/nutracraft.png";
 import tgsHub from "../assets/projects/tgs-hub.png"
 import coffsCityLockmart from "../assets/projects/coffscitylockmart.png"
 import karrathaLocksmith from "../assets/projects/karrathalocksmith.png"
@@ -47,6 +52,7 @@ import perfectFloors from "../assets/projects/perfect_floors.png"
 import fastTrackHomeLoans from "../assets/projects/fast_track_home_loans.png"
 
 export {
+    nutracraft,
     tgsHub,
     coffsCityLockmart,
     karrathaLocksmith,
