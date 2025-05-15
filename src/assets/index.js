@@ -50,6 +50,9 @@ import municipalityOfToboso from "../assets/projects/municipality-of-toboso.png"
 import bus4x4 from "../assets/projects/bus4x4.png"
 import perfectFloors from "../assets/projects/perfect_floors.png"
 import fastTrackHomeLoans from "../assets/projects/fast_track_home_loans.png"
+import marciMetzger from "../assets/projects/real-estate.png"
+import mhc from "../assets/projects/mhc.png"
+import stickmanwealth from "../assets/projects/stickmanwealth.png"
 
 export {
     nutracraft,
@@ -59,5 +62,8 @@ export {
     municipalityOfToboso,
     bus4x4,
     perfectFloors,
-    fastTrackHomeLoans
+    fastTrackHomeLoans,
+    marciMetzger,
+    mhc,
+    stickmanwealth
 }

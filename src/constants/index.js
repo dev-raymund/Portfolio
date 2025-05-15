@@ -44,7 +44,10 @@ import {
     adobeIcon,
     redis,
     postman,
-    nutracraft
+    nutracraft,
+    marciMetzger,
+    mhc,
+    stickmanwealth
 } from '../assets'
 
 export const skills = [
@@ -186,16 +189,16 @@ export const projects = [
                 description: "Fully custom Wordpress website from scratch and run from a REST API of its functionality. Speak privately online or in person with universities, colleges and government organisations from around the world who will answer all your questions."
             },
             {
-                title: "Coffs City Lockmart",
-                link: "https://www.coffscitylockmart.com.au/",
-                featured_image: coffsCityLockmart,
-                description: "Trusted Locksmith Services for 40+ Years Securing Homes, Schools, and Councils in NSW Mid North Coast with quality locks, safes, and security systems"
+                title: "Multihull Central",
+                link: "https://mhc.netstripes.au/",
+                featured_image: mhc,
+                description: "Custom website from scratch built in wordpress with the help of ACF to showcase content. Main products was selling yachts and showcasing events."
             },
             {
-                title: "Karratha Lock Service",
-                link: "https://karrathalockservice.com/",
-                featured_image: karrathaLocksmith,
-                description: "Trusted Karratha Locksmith for Homes, Businesses, and Vehicles with 20 years of experience serving the Pilbara Region with security solutions, superior workmanship and swift service"
+                title: "Stickman Weatlh",
+                link: "https://www.stickmanwealth.com.au/",
+                featured_image: stickmanwealth,
+                description: "Custom website built in wordpress with the help of ACF to showcase content. Offers Financial Planning and Mortgage Broking services for people."
             },
             {
                 title: "Bus 4x4",
@@ -207,6 +210,18 @@ export const projects = [
                 title: "Perfect Floors",
                 link: "https://perfectfloors.com.au/",
                 featured_image: perfectFloors,
+                description: "Ecommerce website showcasing interior design services. Selecting the right flooring for your home is a critical decision that can significantly impact the look, feel, and functionality of your living spaces."
+            },
+            {
+                title: "Coffs City Lockmart",
+                link: "https://www.coffscitylockmart.com.au/",
+                featured_image: coffsCityLockmart,
+                description: "Trusted Locksmith Services for 40+ Years Securing Homes, Schools, and Councils in NSW Mid North Coast with quality locks, safes, and security systems"
+            },
+            {
+                title: "Karratha Lock Service",
+                link: "https://karrathalockservice.com/",
+                featured_image: karrathaLocksmith,
                 description: "Trusted Karratha Locksmith for Homes, Businesses, and Vehicles with 20 years of experience serving the Pilbara Region with security solutions, superior workmanship and swift service"
             },
             {
@@ -226,6 +241,17 @@ export const projects = [
                 link: "https://nutracraft.com",
                 featured_image: nutracraft,
                 description: "E-Commerce website with food supplement products. Customize liquid templates and support in email marketing."
+            },
+        ]
+    },
+    {
+        category: "custom",
+        project_list: [
+            {
+                title: "Marci Metzger - Real Estate",
+                link: "https://real-estate-flame-two.vercel.app/",
+                featured_image: marciMetzger,
+                description: "Real Estate website that built using HTML, CSS and JS only."
             },
         ]
     },
