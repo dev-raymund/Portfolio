@@ -5,7 +5,7 @@ const Project = ({ data }) => {
   return (
     <>
       {data.map((item, index) => (
-        <div key={index} className="py-10">
+        <div key={index} className="py-5">
           <h3 className="px-8 text-1xl font-sans font-bold uppercase text-zinc-900 dark:text-white mb-5">
             {item.category}
           </h3>

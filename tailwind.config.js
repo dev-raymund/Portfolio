@@ -13,9 +13,9 @@ export default {
         sans: ["var(--font-rajdhani)", ...fontFamily.sans],
       },
       boxShadow: {
-        'custom-1': '0 0 15px 0',
+        'custom-1': '0 0 10px 0',
       },
-      
+
     },
   },
   plugins: [],

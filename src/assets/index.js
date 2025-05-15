@@ -53,6 +53,8 @@ import fastTrackHomeLoans from "../assets/projects/fast_track_home_loans.png"
 import marciMetzger from "../assets/projects/real-estate.png"
 import mhc from "../assets/projects/mhc.png"
 import stickmanwealth from "../assets/projects/stickmanwealth.png"
+import lisaSherman from "../assets/projects/lisasherman.png"
+import bhSellersAdvocate from "../assets/projects/bh-sellers-advocate.png"
 
 export {
     nutracraft,
@@ -65,5 +67,7 @@ export {
     fastTrackHomeLoans,
     marciMetzger,
     mhc,
-    stickmanwealth
+    stickmanwealth,
+    lisaSherman,
+    bhSellersAdvocate
 }

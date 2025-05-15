@@ -11,23 +11,23 @@ const Body = () => {
     <>
       <Hero />
 
-      <div id="skills" className="pt-24">
+      <div id="skills" className="pt-10 xl:pt-20">
         <h3 className="font-sans text-sky-500 text-2xl font-bold mb-3 text-center lg:text-left">
-          Skill
+          Skills
         </h3>
         <Skill data={skills} />
       </div>
 
-      <div id="experience" className="pt-24">
+      <div id="experiences" className="pt-10 xl:pt-20">
         <h3 className="font-sans text-sky-500 text-2xl font-bold mb-3 text-center lg:text-left">
-          Experience
+          Experiences
         </h3>
         <Experience data={experiences} />
       </div>
 
-      <div id="projects" className="pt-24">
+      <div id="projects" className="pt-10 xl:pt-20">
         <h3 className="font-sans text-sky-500 text-2xl font-bold mb-3 text-center lg:text-left">
-          Project
+          Projects
         </h3>
         <Project data={projects} />
       </div>

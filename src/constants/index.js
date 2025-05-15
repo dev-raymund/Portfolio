@@ -47,7 +47,9 @@ import {
     nutracraft,
     marciMetzger,
     mhc,
-    stickmanwealth
+    stickmanwealth,
+    lisaSherman,
+    bhSellersAdvocate
 } from '../assets'
 
 export const skills = [
@@ -213,6 +215,12 @@ export const projects = [
                 description: "Ecommerce website showcasing interior design services. Selecting the right flooring for your home is a critical decision that can significantly impact the look, feel, and functionality of your living spaces."
             },
             {
+                title: "BH Sellers Advocate",
+                link: "https://bhsellersadvocate.com.au/",
+                featured_image: bhSellersAdvocate,
+                description: "BH Sellers Advocate is built in wordpress mainly selling properties, using ACF this will able to showcase the content of the website."
+            },
+            {
                 title: "Coffs City Lockmart",
                 link: "https://www.coffscitylockmart.com.au/",
                 featured_image: coffsCityLockmart,
@@ -226,11 +234,16 @@ export const projects = [
             },
             {
                 title: "Fast Track Home Loans",
-                link: "https://fthl.netstripes.au/",
+                link: "https://fasttrackhomeloans.com.au/",
                 featured_image: fastTrackHomeLoans,
                 description: "Helps Professionals, Families and Businesses build wealth through property. Our experts will structure your finances in maximising your borrowing and investments."
             },
-
+            {
+                title: "Lisa Sherman - Realtor",
+                link: "https://lisashermanrealty.com/",
+                featured_image: lisaSherman,
+                description: "Real Estate website built in wordpress using elementor and showcasing property from MLS with the help of estatik plugin."
+            },
         ]
     },
     {
@@ -276,8 +289,8 @@ export const navigation = [
     },
     {
         id: 2,
-        title: "Experience",
-        url: "#experience"
+        title: "Experiences",
+        url: "#experiences"
     },
     {
         id: 3,
